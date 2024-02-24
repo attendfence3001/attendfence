@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'pages/login_page.dart';
-// import 'pages/registration_page.dart';
+import 'pages/registration_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(scaffoldBackgroundColor: Colors.deepPurple),
+      initialRoute: '/',
       routes: {
         "/": (context) => const LoginPage(),
-        // "/register":(context) => RegistrationPage(),
+        "/2": (context) => const RegistrationPage(),
       },
     );
   }
