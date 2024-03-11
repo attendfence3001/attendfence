@@ -9,14 +9,28 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^2.25.4
+  flutter_keyboard_visibility: ^5.2.0
+  firebase_auth: 4.17.4
+  local_auth: ^2.1.8
+  cloud_firestore: ^4.15.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  dependency_validator: ^3.0.0
 
 flutter:
   uses-material-design: true
+
+fonts:
+  - family: NexaBold
+    fonts: 
+    - asset: assets/fonts/NexaBold.otf
+  - family: NexaRegular
+    fonts:
+    - asset: assets/fonts/NexaRegular.otf
 
 # assets:
 #  - assets/images

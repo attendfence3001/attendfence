@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822816480045",
+    "project_id": "attendfence-d54b2",
+    "storage_bucket": "attendfence-d54b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822816480045:android:b03b3edf17f25e678191a4",
+        "android_client_info": {
+          "package_name": "com.example.attend_fence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWpaL2lLpZl6Mg8fYim2-4SOMWHVolhLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
